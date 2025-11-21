@@ -53,7 +53,7 @@ $$
 \pi_k^{new} = \frac{N_k}{N}
 $$
 
-*Where ${N_k} = \sum_{i=1}^{N} \gamma_{ik}$ is the effective number of points in cluster $k$.*
+*Where* $N_k = \sum_{i=1}^{N} \gamma_{ik}$ *is the effective number of points in cluster* $k$.
 
 ### 4. Log-Likelihood
 The objective function we maximize is the log-likelihood of the data:
