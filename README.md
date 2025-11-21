@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python main.py --k 3 --max-iter 200 --tol 1e-4 --seed 42
 
 
-### 1. Gaussian Mixture Model
+## Gaussian Mixture Model
 The probability density function is defined as a weighted sum of $K$ Gaussian components:
 
 $$
