@@ -34,7 +34,6 @@ $$
 
 
 
-
 ### 3. M-Step: Parameter Updates
 We update the parameters by maximizing the expected log-likelihood:
 
