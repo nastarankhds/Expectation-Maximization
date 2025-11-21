@@ -1,14 +1,15 @@
 # EM for Gaussian Mixture Models (GMM)
 
-This repository implements the Expectation–Maximization (EM) algorithm for GMMs on a 2D “Mickey Mouse” dataset. 
+This repository implements the Expectation–Maximization (EM) algorithm for Gaussian Mixture Models (GMM) on a 2D “Mickey Mouse” dataset.
 
+## 🚀 Quick Start
 
-## Quick start
-```bash
-python -m venv .venv
-source .venv/bin/activate   # on Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python main.py --k 3 --max-iter 200 --tol 1e-4 --seed 42
+1. **Create a virtual environment**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # on Windows: .venv\Scripts\activate
+   pip install -r requirements.txt
+   python main.py --k 3 --max-iter 200 --tol 1e-4 --seed 42
 
 # Gaussian Mixture Model
 The probability density function is defined as a weighted sum of $K$ Gaussian components:
