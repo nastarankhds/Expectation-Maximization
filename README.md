@@ -32,22 +32,23 @@ $$
 \gamma_{ik} = \frac{\pi_k \mathcal{N}(x_i | \mu_k, \Sigma_k)}{\sum_{j=1}^{K} \pi_j \mathcal{N}(x_i | \mu_j, \Sigma_j)}
 $$
 
-
-
 ### 3. M-Step: Parameter Updates
 We update the parameters by maximizing the expected log-likelihood:
 
 **New Means:**
+
 $$
 \mu_k^{new} = \frac{1}{N_k} \sum_{i=1}^{N} \gamma_{ik} x_i
 $$
 
 **New Covariances:**
+
 $$
 \Sigma_k^{new} = \frac{1}{N_k} \sum_{i=1}^{N} \gamma_{ik} (x_i - \mu_k^{new})(x_i - \mu_k^{new})^T
 $$
 
 **New Weights:**
+
 $$
 \pi_k^{new} = \frac{N_k}{N}
 $$
